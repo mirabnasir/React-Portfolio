@@ -93,7 +93,11 @@ body {
     text-decoration: none;
     border-radius: 10px;
 }
-
+@media (max-width: 900px) {
+    .project1  {
+        min-width: 450px;
+    }
+}
 @media (max-width: 768px) {
     .projects-container {
         flex-direction: column;
@@ -102,6 +106,7 @@ body {
 
     .project1 {
         min-width: 100%;
+        padding: 0 30px 0 30px;
     }
 
     .service-box {
@@ -114,7 +119,9 @@ body {
     .project p {
         font-size: 12px;
     }
-
+    .project1 {
+        padding: 0 30px 10px 30px;
+    }
     .service-box img {
         width: 100%;
         max-width: 100%;

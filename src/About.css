@@ -100,7 +100,11 @@ body {
     font-size: 1.125rem;
     margin-bottom: 5px;
 }
-
+@media (max-width: 900px) {
+    .service{
+        min-width: 360px;
+    }
+}
 @media (max-width: 768px) {
     .about h1 {
         font-size: 2rem;
@@ -127,7 +131,7 @@ body {
     }
 
     .service {
-        min-width: 280px;
+        min-width: 320px;
     }
 }
 
@@ -157,7 +161,7 @@ body {
     }
 
     .service {
-        min-width: 100%;
+        min-width: 320px;
         margin :20px ;
     }
 }
