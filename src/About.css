@@ -25,12 +25,13 @@ body {
 
 .list ol {
     padding: 0 20px;
+    list-style-position: inside;
 }
 
 .list li {
     margin: 20px 0;
-
     font-size: 1.25rem;
+    color: #333;
 }
 
 .about-buttons {
@@ -61,15 +62,16 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    margin: 10px;
 }
 
 .service {
     border: 1px solid #1c2237;
-     margin : 0 30px 0 0 ;
     padding: 20px;
     flex: 1;
     min-width: 300px;
-    max-width: 350px;
+    max-width: 320px;
+    text-align: left;
     transition: border 0.3s ease;
 }
 
@@ -85,6 +87,7 @@ body {
 .service p {
     font-size: 1.125rem;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .service:hover {
@@ -93,18 +96,31 @@ body {
 
 .service ul {
     padding-left: 0;
+    list-style: none;
 }
 
 .service li {
-    list-style: none;
     font-size: 1.125rem;
     margin-bottom: 5px;
+    display: flex;
+    align-items: center;
 }
-@media (max-width: 900px) {
+
+.service li svg {
+    margin-right: 10px;
+}
+
+@media (max-width: 915px) {
+    .service-container {
+        
+        align-items: center;
+
+    }
     .service{
-        min-width: 360px;
+        min-width: 350px;
     }
 }
+
 @media (max-width: 768px) {
     .about h1 {
         font-size: 2rem;
@@ -131,7 +147,7 @@ body {
     }
 
     .service {
-        min-width: 320px;
+        max-width: 320px;
     }
 }
 
@@ -158,10 +174,5 @@ body {
 
     .service-container {
         gap: 10px;
-    }
-
-    .service {
-        min-width: 320px;
-        margin :20px ;
     }
 }

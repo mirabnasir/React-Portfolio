@@ -84,7 +84,10 @@ body {
     line-height: 1.4;
 }
 .call-to-action{
-    margin: 15px;
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .call-to-action a {
     background: #1c2237;
@@ -92,8 +95,11 @@ body {
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    max-width: 100%;
 }
-@media (max-width: 900px) {
+@media (max-width: 915px) {
     .project1  {
         min-width: 450px;
     }
@@ -113,6 +119,14 @@ body {
         flex: 1 1 100%;
         margin: 10px 0;
     }
+    .call-to-action {
+        width: 100%;
+    }
+
+    .call-to-action a {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -126,8 +140,13 @@ body {
         width: 100%;
         max-width: 100%;
     }
-
+    .call-to-action {
+        width: 100%;
+        padding: 10px 0;
+    }
     .call-to-action a {
         padding: 10px 15px;
+        font-size: 0.875rem; 
+      
     }
 }
