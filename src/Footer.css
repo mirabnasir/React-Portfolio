@@ -61,7 +61,9 @@
     font-size: 0.875rem;
     color: #a9b0c3;
 }
-
+.date{
+    font-size: 10px;
+}
 @media (max-width: 768px) {
     .brand h1 {
         font-size: 1.5rem;
@@ -91,7 +93,7 @@
     }
 
     .brand p {
-        font-size: 0.875rem;
+        font-size: 0.815rem;
     }
 
     .intro p {

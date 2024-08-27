@@ -16,7 +16,7 @@ function Footer(){
                    <SiInstagram size={24} color="#e1306c"/>
                 </div>
                 <div className="intro">
-                    <p>I’m a web developer ,focus only on my work.</p>
+                    <p>I’m a web developer, focus only on my work.</p>
                 </div>
                 <div className="contact-info">
                     <div className="email">
@@ -34,7 +34,7 @@ function Footer(){
                     </div>
 
                 </div>
-                <p>&copy; {new Date().getFullYear()}Mirab Nasir</p>
+                <p className='date'> Copyright &copy; {new Date().getFullYear()} ThemePure. All rights reserved. </p>
             </div>
         </footer>
     );
