@@ -83,13 +83,13 @@ body {
     text-align: center;
     color: #1c2237;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 14px;
     font-variant: small-caps;
     margin-bottom: 10px;
 }
 
 .service p {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -104,7 +104,7 @@ body {
 }
 
 .service li {
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 5px;
     display: flex;
     align-items: center;
@@ -167,11 +167,11 @@ body {
     }
 
     .service h2 {
-        font-size: 1.125rem;
+        font-size: 13px;
     }
 
     .service p {
-        font-size: 0.9rem;
+        font-size: 12px;
     }
 
     .service-container {
