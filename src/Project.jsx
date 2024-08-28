@@ -12,7 +12,7 @@ function Project(){
 
 <div className="project">
             <h1>Here are my Projects</h1>
-            <p>I specialize in creating responsive and user-friendly websites using Bootstrap. My design approach emphasizes efficiency and aesthetics, ensuring each site is not only visually engaging but also highly functional across all devices. By leveraging Bootstrap's powerful framework, I deliver projects quickly without compromising on quality. My work reflects a strong understanding of modern web design principles, with a focus on clean, maintainable code and seamless user experiences.</p>
+            <p>I specialize in creating responsive and user-friendly websites using Bootstrap. My design approach emphasizes efficiency and aesthetics, ensuring each site is not only visually engaging but also highly functional across all devices.</p>
             <div className="projects-container">
               <div className="project1">
                 <img  src={picture1}></img>
