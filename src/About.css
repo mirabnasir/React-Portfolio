@@ -30,7 +30,7 @@ body {
 
 .list li {
     margin: 20px 0;
-    font-size: 1.25rem;
+    font-size: 18px;
     color: #333;
 }
 
@@ -83,13 +83,13 @@ body {
     text-align: center;
     color: #1c2237;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
+    font-size: 16px;
     font-variant: small-caps;
     margin-bottom: 10px;
 }
 
 .service p {
-    font-size: 1.125rem;
+    font-size: 14px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -104,7 +104,7 @@ body {
 }
 
 .service li {
-    font-size: 1.125rem;
+    font-size: 15px;
     margin-bottom: 5px;
     display: flex;
     align-items: center;
@@ -159,7 +159,7 @@ body {
         font-size: 1.5rem;
     }
     .list li {
-        font-size: 1rem;
+        font-size: 14px;
     }
 
     .about-buttons button {
